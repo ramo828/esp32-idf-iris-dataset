@@ -1,0 +1,28 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPath": "/home/ramiz/esp/esp-idf",
+    "idf.pythonInstallPath": "/home/ramiz/.espressif/python_env/idf5.5_py3.12_env/bin/python",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ],
+    "idf.port": "/dev/ttyACM0",
+    "idf.toolsPath": "/home/ramiz/.espressif",
+    "C_Cpp.errorSquiggles": "disabled",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "/home/ramiz/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts",
+        "ESP_ROM_ELF_DIR": "/home/ramiz/.espressif/tools/esp-rom-elfs/20230320/",
+        "IDF_TARGET": "esp32s3"
+    },
+    "idf.flashType": "UART",
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "clang-diagnostic-error"
+    ],
+    "files.associations": {
+        "cmath": "cpp",
+        "complex": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "span": "cpp"
+    }
+}
